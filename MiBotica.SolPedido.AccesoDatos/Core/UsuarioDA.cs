@@ -74,6 +74,30 @@ namespace MiBotica.SolPedido.AccesoDatos.Core
 
             return usuario;
         }
+        public void InsertarUsuario(Usuario usuario)
+        {
+            string csName = ConfigurationManager.AppSettings["cnnSql"] ?? "SQL";
+            string connStr = ConfigurationManager.ConnectionStrings[csName].ConnectionString;
+
+            using (SqlConnection cn = new SqlConnection(connStr))
+            using (SqlCommand cmd = new SqlCommand("paUsuarioInsertar", cn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.Add("@CodUsuario", SqlDbType.VarChar, 50)
+                               .Value = (object)usuario.CodUsuario ?? DBNull.Value;
+
+                // -1 = VARBINARY(MAX)
+                cmd.Parameters.Add("@Clave", SqlDbType.VarBinary, -1)
+                               .Value = (object)usuario.Clave ?? DBNull.Value;
+
+                cmd.Parameters.Add("@Nombres", SqlDbType.VarChar, 50)
+                               .Value = (object)usuario.Nombres ?? DBNull.Value;
+
+                cn.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
     }
 }
 

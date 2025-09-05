@@ -4,29 +4,53 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+@*<h2>Index</h2>*@
 
-<p>
+@*<p>
     @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.IdUsuario)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CodUsuario)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Nombres)
-        </th>
-        @*<th>
-            @Html.DisplayNameFor(model => model.ClaveTexto)
-        </th>*@
-        <th></th>
-    </tr>
+</p>*@
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">Lista de Usuarios</h3>
+        <div class="box-tools">
+            <div class="input-group input-group-sm" style="width: 250px;">
+                @*Type se refiere al tipo de variable que permite el input
+                    puedes poner pasword date etc, name es como se va a enviar
+                    el input por ejemplo pongo Victor y se enviaria asi
+                    /Usuario?table_search=victor
+                    y placeholder es el texto que saldra en el input cuando no hay nada*@
+                <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
+                <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                    <a href="@Url.Action("Create", "Usuario")" class="btn btn-primary">
+                        <i class="fa fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        @foreach (var item in Model) {
+
+
+    <div class="box-body table-responsive no-padding">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdUsuario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CodUsuario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombres)
+                </th>
+                <th>
+                    @* @Html.DisplayNameFor(model => model.ClaveTexto)*@
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model) {
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.IdUsuario)
@@ -49,3 +73,5 @@
         }
 
         </table>
+    </div>
+</div>
