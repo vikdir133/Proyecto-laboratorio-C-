@@ -1,0 +1,6 @@
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.Utiles\bin\Debug\MiBotica.SolPedido.Utiles.dll
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.Utiles\bin\Debug\MiBotica.SolPedido.Utiles.pdb
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.Utiles\obj\Debug\MiBotica.SolPedido.Utiles.csproj.AssemblyReference.cache
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.Utiles\obj\Debug\MiBotica.SolPedido.Utiles.csproj.CoreCompileInputs.cache
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.Utiles\obj\Debug\MiBotica.SolPedido.Utiles.dll
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.Utiles\obj\Debug\MiBotica.SolPedido.Utiles.pdb

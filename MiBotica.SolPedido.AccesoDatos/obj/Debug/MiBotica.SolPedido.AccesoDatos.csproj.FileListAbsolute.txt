@@ -1,0 +1,10 @@
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\bin\Debug\MiBotica.SolPedido.AccesoDatos.dll
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\bin\Debug\MiBotica.SolPedido.AccesoDatos.pdb
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\bin\Debug\MiBotica.SolPedido.Entidades.dll
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\bin\Debug\MiBotica.SolPedido.Entidades.pdb
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\obj\Debug\MiBotica.SolPedido.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\obj\Debug\MiBotica.SolPedido.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\obj\Debug\MiBotica.BB51D005.Up2Date
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\obj\Debug\MiBotica.SolPedido.AccesoDatos.dll
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\obj\Debug\MiBotica.SolPedido.AccesoDatos.pdb
+C:\Users\Victor\Desktop\ProyectoClase\MiBotica.SolPedido\MiBotica.SolPedido.AccesoDatos\bin\Debug\log4net.dll
